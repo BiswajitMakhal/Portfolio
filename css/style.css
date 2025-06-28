@@ -99,6 +99,7 @@ h1 {
 .mark {
     color: #5cd2b9;
     background: transparent;
+    font-weight: bold;
 }
 
 .cv-btn {
@@ -194,7 +195,7 @@ h2 {
 .gradient {
     padding: 4px;
     border-radius: 10px;
-    background: linear-gradient(to right, #5cd2b96a,rgba(255, 255, 255, 0.426));
+    background: linear-gradient(to right,rgba(0, 0, 0, 0.525), #5cd2b96a,rgba(0, 0, 0, 0.477));
 }
 
 .about-content>p {
