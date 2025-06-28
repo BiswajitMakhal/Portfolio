@@ -116,6 +116,23 @@ h1 {
     border-radius: 4px;
 }
 
+.social {
+    margin-top: 15px;
+}
+
+.fa-brands {
+    font-size: 30px;
+    color: gray;
+}
+
+.fa-square-github {
+    margin-right: 10px;
+}
+
+.fa-brands:hover {
+    color: white;
+}
+
 .x-center {
     display: flex;
     justify-content: center;
@@ -125,7 +142,7 @@ h1 {
 
 .hero-img {
     padding: 10px;
-    max-width: 300px;
+    max-width: 400px;
     max-height: 400px;
     border-radius: 15px;
     animation: img ease-in-out infinite 5s;
@@ -149,14 +166,63 @@ h1 {
     }
 }
 
+/* ABOUT SECTION */
+.about-section {
+    padding: 90px 0;
+}
+
+.about-img {
+    padding: 6px;
+    max-height: 400px;
+    max-width: 400px;
+    border: 1px solid #5cd2b9;
+    border-radius: 40px;
+}
+
+.about-img>img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 40px;
+}
+
+h2 {
+    color: #5cd2b9;
+    font-size: 40px;
+}
+
+.gradient {
+    padding: 4px;
+    border-radius: 10px;
+    background: linear-gradient(to right, #5cd2b96a,rgba(255, 255, 255, 0.426));
+}
+
+.about-content>p {
+    color: white;
+    font-family: serif;
+    font-size: 20px;
+}
+
+
+
+/* BREAKPOINT */
 @media screen and (max-width:992px) {
+
+    /* HERO SECTION */
     h1 {
         font-size: 80px;
     }
 
+    /* ABOUT SECTION */
+    .about-section {
+        padding: 50px 0;
+    }
+
 }
 
-@media screen and (max-width:768px) {
+
+
+@media screen and (max-width:767.98px) {
 
     /* HEADER SECTION */
     .nav-logo {
@@ -193,5 +259,17 @@ h1 {
     .details {
         font-size: 1.1rem;
         max-width: 483px;
+    }
+
+    /* ABOUT SECTION */
+    h2{
+        font-size: 30px;
+    }
+    .about-img {
+        margin-bottom: 18px;
+    }
+
+    .about-content>p {
+        font-size: 1.1rem;
     }
 }
