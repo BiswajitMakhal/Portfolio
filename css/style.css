@@ -6,6 +6,11 @@ body {
     font-family: "Syne", sans-serif;
 }
 
+html,
+body {
+    overflow-x: hidden;
+}
+
 /* common classes */
 .btn:hover {
     background-color: #5cd2b9;
@@ -244,16 +249,23 @@ h2 {
     padding: 80px 0;
 }
 
+
 .project {
     margin-bottom: 25px;
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.995), #5cd2b9c4, rgba(0, 0, 0, 0.578));
+    max-width: 280px;
+    border-radius: 25px;
+    margin: 0 auto;
 }
 
 .project>h2 {
     color: white;
     text-align: center;
-    background: linear-gradient(to right, black, rgba(255, 255, 255, 0.69), rgb(254, 254, 255));
+    background: white;
     background-clip: text;
     -webkit-text-fill-color: transparent;
+    font-weight: 600;
+    padding: 8px;
 }
 
 .card-all {
@@ -347,6 +359,78 @@ h3 {
         background-position: left
     }
 }
+
+/* FORM SECTION */
+.form-section {
+    padding: 80px 0;
+}
+
+.form {
+    padding: 40px;
+    border: 1px solid #5cd2b9;
+    gap: 25px;
+}
+
+label {
+    color: #5cd2b9;
+    margin-bottom: -21px;
+}
+
+#name,
+#email,
+#message {
+    background: #151515cf;
+    border: 1px solid #5cd2b9;
+    padding: 8px;
+    color: white;
+    outline: none;
+}
+
+.submit {
+    background: #5cd2b9;
+    padding: 8px;
+    text-align: center;
+    border: none;
+    outline: none;
+    font-weight: bold;
+}
+
+.m-bottom {
+    color: #5cd2b9;
+}
+
+.title {
+    color: white;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.title>span {
+    color: #5cd2b9;
+}
+
+.contact-info>p {
+    color: gainsboro;
+}
+
+.email {
+    background: url(../assets/envelope-regular.svg)no-repeat;
+    height: 25px;
+    width: 25px;
+}
+
+.head {
+    color: rgb(149, 148, 148);
+}
+
+.title-1 {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+
+
+
 
 
 
@@ -443,5 +527,15 @@ h3 {
 
     .loader {
         display: none;
+    }
+
+    /* FORM SECTION */
+    .form-column {
+        flex-direction: column-reverse;
+    }
+
+    .form {
+        margin-top: 25px;
+        padding: 25px;
     }
 }
