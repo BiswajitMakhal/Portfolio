@@ -118,6 +118,10 @@ h1 {
     border-radius: 4px;
     margin-right: 4px;
 }
+.fa-download{
+    margin-left: 2px;
+    font-size: 11px;
+}
 
 .contact-btn {
     padding: 10px;
@@ -316,16 +320,37 @@ h3 {
 
 .source {
     background: #5e7a75;
-    padding: 8px 20px;
+    padding: 8px 10px;
     text-align: center;
     color: #040e27;
 }
 
 .live {
     background: #3d3f51;
-    padding: 8px 50px;
+    padding: 8px 40px;
     text-align: center;
     color: #ffffff;
+}
+
+.fa-arrow-right {
+    margin-left: 5px;
+    font-size: 10px;
+    animation: arrow ease-in-out infinite 1s;
+}
+
+@keyframes arrow {
+
+    0%,
+    100% {
+        transform: translateX(6px);
+        color: black;
+    }
+
+    50% {
+        transform: translateX(0);
+        color: #ffffff;
+    }
+
 }
 
 /* FOR LOADING PROJECTS */
