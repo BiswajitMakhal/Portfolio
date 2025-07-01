@@ -1,3 +1,6 @@
+// Aos cdn//
+AOS.init();
+
 document.addEventListener('DOMContentLoaded', () => {
     const toggler = document.getElementById('sideNav');
     const icon = document.getElementById('navbar-toggler-icon');
