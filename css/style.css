@@ -92,7 +92,7 @@ h1 {
 
 .white {
     color: white;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .small {
@@ -253,7 +253,7 @@ h2 {
 .project {
     background: linear-gradient(to right, rgba(0, 0, 0, 0.995), #5cd2b9c4, rgba(0, 0, 0, 0.578));
     max-width: 280px;
-    border-radius: 25px;
+    border-radius: 10px;
     margin: 0 auto;
 }
 
@@ -269,7 +269,7 @@ h2 {
 
 .card-all {
     padding: 15px;
-    border-radius: 15px;
+    border-radius: 10px;
     background: black;
     min-height: 450px;
     margin-bottom: 15px;
