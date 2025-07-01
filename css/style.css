@@ -75,7 +75,7 @@ header {
 }
 
 h1 {
-    background: linear-gradient(to right, #5cd2b9, rgb(254, 254, 255));
+    background: linear-gradient(to right, #5cd2b9, #ffffff);
     background-clip: text;
     -webkit-text-fill-color: transparent;
     background-size: 200%;
@@ -251,7 +251,7 @@ h2 {
 
 
 .project {
-    background: linear-gradient(to right, rgba(0, 0, 0, 0.995), #5cd2b9c4, rgba(0, 0, 0, 0.578));
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.488), #5cd2b99b, rgba(0, 0, 0, 0.578));
     max-width: 280px;
     border-radius: 10px;
     margin: 0 auto;
@@ -265,6 +265,7 @@ h2 {
     background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 600;
+    border: 1px solid #5cd2b97a;
 }
 
 .card-all {
